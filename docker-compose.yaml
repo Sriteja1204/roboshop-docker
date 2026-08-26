@@ -46,7 +46,7 @@ services:
   shipping:
     build: ./shipping
     image: sriteja1204/shipping:v1
-    container_name: shapping
+    container_name: shipping
     environment:
       CART_ENDPOINT: "cart:8080"
       DB_HOST: mysql
