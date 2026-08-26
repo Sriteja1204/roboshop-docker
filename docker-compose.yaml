@@ -35,7 +35,6 @@ services:
     image: sriteja1204/cart:v1
     container_name: cart
     environment:
-      MONGO: true
       REDIS_HOST: redis
       CATALOGUE_HOST: catalogue
       CATALOGUE_PORT: 8080
